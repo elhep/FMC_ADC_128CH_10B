@@ -42,6 +42,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=default
 
 [Preferences]
 PrefsVaultGUID=
@@ -341,8 +342,13 @@ UniqueID=B804E923-F24F-4898-AACC-216BE7FF0D15
 Description=default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=1
+Variation1=Designator=R116|UniqueId=\PDWJPLGK\KZLRCNXZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for FMC_ADC_128CH_10B\Design Rule Check - FMC_ADC_128CH_10B.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -508,7 +514,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1303,9 +1309,9 @@ CompClassManualEnabled=0
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
-NetClassAutoNamedHarnessEnabled=0
+NetClassAutoNamedHarnessEnabled=1
 NetClassManualEnabled=1
-NetClassSeparateForBusSections=0
+NetClassSeparateForBusSections=1
 
 [LibraryUpdateOptions]
 SelectedOnly=0
