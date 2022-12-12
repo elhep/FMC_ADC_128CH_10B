@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=FMC_ADC_128CH_10B.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=[No Variations]
+VariantName=default
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Brother DCP-1610W series Printer
@@ -202,7 +202,7 @@ OutputEnabled7_OutputMedium3=4
 OutputEnabled7_OutputMedium4=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16842754~1,16777219~1,16777220~1,16842753~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908294~1,16908295~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\FMC\FMC_ADC_128CH_10B\PCB\FMC_ADC_128CH_10B.PcbDoc
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16842754~1,16777219~1,16777220~1,16842753~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908294~1,16908295~1|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\FMC\FMC_ADC_128CH_10B\PCB\FMC_ADC_128CH_10B.PcbDoc
 OutputType8=NC Drill
 OutputName8=NC Drill Files
 OutputCategory8=Fabrication
@@ -346,7 +346,7 @@ OutputEnabled14_OutputMedium4=0
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=LayerStackReportView|Units=Imperial|DocumentPath=D:\Dropbox\DESIGNS\GEM\GEM_AFE_TI_FPGA\PCB\GEM_AFE_TI_FPGA.PcbDoc
+Configuration14_Item1=Record=LayerStackReportView|Units=Metric|DocumentPath=D:\FMC\FMC_ADC_128CH_10B\PCB\FMC_ADC_128CH_10B.PcbDoc
 
 [PublishSettings]
 OutputFilePath2=D:\Dropbox\DESIGNS\GEM\GEM_3072\FMC_ADC_128CH_10B\PCB\Project Outputs for GEM_AFE_TI_FPGA\Urukul_9912.PDF
@@ -376,9 +376,9 @@ ShowComponentParameters2=0
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=D:\Dropbox\DESIGNS\GEM\GEM_3072\FMC_ADC_128CH_10B\PCB\Project Outputs for GEM_AFE_TI_FPGA\
+OutputFilePath3=D:\FMC\FMC_ADC_128CH_10B\PCB\Project Outputs for FMC_ADC_128CH_10B\
 ReleaseManaged3=0
-OutputBasePath3=Project Outputs for GEM_AFE_TI_FPGA\
+OutputBasePath3=Project Outputs for FMC_ADC_128CH_10B\
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -430,7 +430,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\Dropbox\DESIGNS\GEM\GEM_3072\FMC_ADC_128CH_10B\PCB\Project Outputs for GEM_AFE_TI_FPGA\Urukul_9912.PDF
 OpenOutputs2=1
-RelativeOutputPath3=D:\Dropbox\DESIGNS\GEM\GEM_3072\FMC_ADC_128CH_10B\PCB\Project Outputs for GEM_AFE_TI_FPGA\
+RelativeOutputPath3=D:\FMC\FMC_ADC_128CH_10B\PCB\Project Outputs for FMC_ADC_128CH_10B\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
