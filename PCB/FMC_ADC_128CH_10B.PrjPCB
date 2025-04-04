@@ -343,10 +343,11 @@ UniqueID=B804E923-F24F-4898-AACC-216BE7FF0D15
 Description=default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=R116|UniqueId=\PDWJPLGK\KZLRCNXZ|Kind=1|AlternatePart= 
 Variation2=Designator=J2|UniqueId=\PDWJPLGK\XMYQRASM|Kind=1|AlternatePart= 
 Variation3=Designator=R143|UniqueId=\PDWJPLGK\BYPQFELB|Kind=1|AlternatePart= 
+Variation4=Designator=R148|UniqueId=\PDWJPLGK\FSGWWCUC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
